@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cutive+Mono&family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav>
+		<a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="respNav()">&#9776;</a>
+    </nav>
+    <script>
+        function respNav() {
+          var x = document.getElementById("nav");
+          if (x === "nav") {
+            x += " responsive";
+          } else {
+            x = "nav";
+          }
+        }
+
+    </script>
+    <main> 
+
+      <div class = "skill" >
+        <a href="https://myfirstwebpage.adri001.repl.co" target="_blank"><img class = "image" src="./images/html.png" alt="HTML" ></a>
+        <p class = "imgTxt">HTML was the start of my career. As I was interested on how websites were built I took an online course to learn this language. 
+          It was then that my interest for coding and webdevelopment started. Click the icon to see  my very first website.</p>
+      </div> 
+      <div class = "skill">
+        <a href="https://extreal.adri001.repl.co" target="_blank"><img class = "image" src="./images/javascript.png" alt="JS"></a>
+        <p class = "imgTxt">Even though there was no javascript course in my study program, this language was part of some assignments. 
+          These school tasks introduced this scripting language to me, and I continued to learn it through courses online. My bachelor thesis included a web app based on javascript. 
+          Click the icon to see my Augmented Reality application developed with javascript. </p>
+      </div>
+      <div class = "skill">
+        <a href="https://chat.adri001.repl.co" target="_blank"><img class = "image" src="./images/php.png" alt="PHP"></a>
+        <p class = "imgTxt">PHP was the language learned in the Web Development course included in my study program. 
+          In this course, I learned to use HTML and PHP, to develop web pages that include basic PHP concepts
+          and different actions such as login and log out, database connection, and file management. </p>
+      </div>
+      <div class = "skill">
+        <a href="https://ibe205-flask.adri001.repl.co" target="_blank"><img class = "image" src="./images/python.png" alt="python"></a>
+        <p class = "imgTxt">
+          At the school, programming was introduced with Python, in this course I learned the basic programming concepts. 
+          My assignments included simple games such as tic-tac-toe and hangman. Later as part of the Machine Learning course, my Python skills were upgraded as I learned, 
+          how to visualize data with Jupyter Notebooks. I learned to clean data, analyze it and present it in dashboards using tools such as Pandas, Numpy, MatplotLib, and Seaborn.
+          When learning Agile Methodology, my team and I used Scrum to build a Brain teaser web application with Flask. 
+          Click on the icon to see this application ( you can log in using "bob@bbt.com" as user name and "sponge" as password).
+        </p>
+      </div>
+      <div class = "skill">
+        <img class = "image" src="./images/sql.png" alt="SQL">
+        <p class = "imgTxt">
+          In the Database course, I learned how to design and manage a database, as well as how to perform basic queries.
+          Along with the PHP course, I learned how to connect to a database and perform CRUD operations. 
+          This also included sanitizing user inputs, to keep data safe.  
+        </p>
+      </div>
+      <div class = "skill">
+        <img class = "image" src="./images/css.png" alt="CSS">
+        <p class = "imgTxt">
+          I have learned CSS on my own initiative. I started to play around with it and included it in my assignments even when it was not a requirement. 
+          I think the visual aspect is very important and this tool has a lot of possibilities. I am continuously learning and improving my CSS skills and this portfolio is part of it.
+      </div>
+      <div class = "skill" >
+        <img class = "image" src="./images/json-file.png" alt="JSON">
+        <p class = "imgTxt">
+          JSON has been part of some of my projects. The first time I used it was to retrieve data from a Bitcoin (BSV) API where I used node to store and retrieve data from the Blockchain.
+          This tool has been used to store data on some of my web apps.
+        </p>
+      </div>
+      <div class = "skill" >
+        <a href="./images/udemy.png" target="_blank"><img class = "image" src="./images/c-sharp.png" alt="C#"></a>
+        <p class = "imgTxt">
+          C# and OOP are new to me. I have taken self initiative and I'm currently studying this language.
+        </p>
+      </div>
+    </main>
+    
+</body>
+</html>
